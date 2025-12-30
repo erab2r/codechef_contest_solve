@@ -19,7 +19,7 @@ int main() {
         else if(s.size()>2){
             cout << *(s.rbegin()) -1 << endl;
         }
-        else{//s er size==2
+        else{
             int mn = *(s.begin());
             int mx = *(s.rbegin());
             for(int i=mx-1; i>=0; i--){
